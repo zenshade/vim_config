@@ -1,5 +1,6 @@
 call pathogen#infect()
 call pathogen#helptags()
+set runtimepath+=~/.vim/bundle/UltiSnips-2.1
 syntax on
 set nu
 set ai
