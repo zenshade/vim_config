@@ -73,8 +73,14 @@ endif
 
 " A list of directory names that are searched for snippets. 
 if !exists("g:UltiSnipsSnippetDirectories")
-    let g:UltiSnipsSnippetDirectories = [ "~/.vim/bundle/UltiSnips-2.1" ]
+    let g:UltiSnipsSnippetDirectories = [ "UltiSnips" ]
 endif
+
+" dir for snippets 
+if !exists("g:UltiSnipsSnippetDir")
+    let g:UltiSnipsSnippetDir = [ "UltiSnips" ]
+endif
+
 " }}}
 
 "" Global Commands {{{
