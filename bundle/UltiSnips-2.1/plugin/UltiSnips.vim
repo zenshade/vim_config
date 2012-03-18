@@ -77,7 +77,7 @@ if !exists("g:UltiSnipsSnippetDirectories")
 endif
 
 " dir for snippets 
-if !exists("g:UltiSnipsSnippetDir")
+if !exists("g:UltiSnipsSnippetsDir")
     let g:UltiSnipsSnippetDir = [ "~/.vim/bundle/UltiSnips-2.1/UltiSnips" ]
 endif
 
