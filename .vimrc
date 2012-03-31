@@ -25,8 +25,11 @@ colorscheme darkblue
 imap <silent> ii <Esc>:let &insertmode=0<CR>
 " toggle showing hidden characters
 nmap ,l :set list!<CR>
-:au BufEnter *.rb set sw=2 sts=2 et ai
-au BufNewFile *.rb set fileformat=unix tabstop=2 shiftwidth=2 softtabstop=2
+:au BufEnter *.rb set sw=4 sts=4 et ai
+au BufNewFile *.rb set fileformat=unix tabstop=4 shiftwidth=4 softtabstop=4
+
+":au BufEnter *.snippet set sw=2 sts=2 et ai
+"au BufNewFile *.snippet set fileformat=unix tabstop=2 shiftwidth=2 softtabstop=2
 
 " When editing a file, always jump to the last known cursor position.
 " Don't do it when the position is invalid or when inside an event handler
