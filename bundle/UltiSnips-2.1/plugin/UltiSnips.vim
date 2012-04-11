@@ -105,6 +105,8 @@ endfunction
 
 " edit snippets, default of current file type or the specified type
 command! -nargs=? UltiSnipsEdit :call UltiSnipsEdit(<q-args>)
+" shorter alias
+command! -nargs=? USE :call UltiSnipsEdit(<q-args>)
 "" }}}
 
 "" FUNCTIONS {{{
