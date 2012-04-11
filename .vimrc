@@ -5,7 +5,7 @@ syntax on
 set nu
 set ai
 set nocompatible
-set ic
+"set ic
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
