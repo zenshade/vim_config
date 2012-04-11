@@ -68,7 +68,7 @@ endif
 " is opened when editing. default is "normal", allowed are also
 " "vertical", "horizontal"
 if !exists("g:UltiSnipsEditSplit")
-    let g:UltiSnipsEditSplit = 'vertical'
+    let g:UltiSnipsEditSplit = "horizontal"
 endif
 
 " A list of directory names that are searched for snippets. 
