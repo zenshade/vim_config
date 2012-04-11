@@ -1,3 +1,5 @@
+extends html
+
 # TextMate added these variables to cope with changes in ERB handling
 # in different versions of Rails -- for instance, Rails 3 automatically
 # strips whitespace so that it's no longer necessary to use a form like
@@ -274,6 +276,10 @@ endsnippet
 
 snippet lf "link_to_function"
 `!p textmate_var('TM_RAILS_TEMPLATE_START_RUBY_EXPR', snip)`link_to_function ${1:"${2:Greeting}"}, "${3:alert('Hello world!')}"$4`!p textmate_var('TM_RAILS_TEMPLATE_END_RUBY_EXPR', snip)`
+endsnippet
+
+snippet val
+<%= ${1:variable} %>$0
 endsnippet
 
 # vim:ft=snippets:
